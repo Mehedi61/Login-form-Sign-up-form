@@ -18,18 +18,18 @@
 <div class="login-page">
   <div class="form">
 
-    <form>
+      <form action="signupservlet" method="post">
       <lottie-player src="https://assets4.lottiefiles.com/datafiles/XRVoUu3IX4sGWtiC3MPpFnJvZNq7lVWDCa8LSqgS/profile.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;" loop  autoplay></lottie-player>
-      <input type="text" placeholder="full name"/>
-      <input type="text" placeholder="email address"/>
-      <input type="text" placeholder="pick a username"/>
-      <input type="password" placeholder="set a password"/>
-      
+      <input type="text" placeholder="full name" name="fname"/>
+      <input type="text" placeholder="email address" name="email"/>
+      <input type="text" placeholder="pick a username" name="uname"/>
+      <input type="password" placeholder="set a password" name="pw"/>
+      <input type="submit" value="submit">
     </form>
 
-    <form class="login-form">
+   <!-- <form class="login-form">
       <button type="button" onclick="window.location.href='login.html'">SIGN UP</button>
-    </form>
+    </form> -->
   </div>
 </div>
 
